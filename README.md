@@ -12,7 +12,7 @@ including StairNet-Depth-In and StairNet-Depth-Out. StairNet-Depth-In has two in
 <img src=".\materials\geometric_parameter_estimation.gif" width="640" height="360"/>
 
 ## StairNet-Depth-In
-<img src=".\materials\Depth_In_arc.png" width="" height=""/>
+<img src="https://github.com/MrChenWang/StairNet-DepthIn/blob/main/materials/Depth_In_arc.png" width="" height=""/>
 
 ## Getting Started
 To get started, we recommend Anaconda for people using a GPU, and please install the proper dependencies as shown below:
