@@ -70,8 +70,8 @@ def mask_to_onehot(mask):
 class LiverDataset3(Dataset):
     def __init__(self, root, transform=None, transform_d=None, is_train=True):
         imgs = make_dataset(root + '/images')
-        depthes = make_dataset_d(root + '/depthes2')
-        masks = make_dataset_d(root + '/mask')
+        depthes = make_dataset_d(root + '/depthes')
+        masks = make_dataset_d(root + '/segmentation')
         labels = make_dataset_txt(root + '/final_labels32asymmetric')
         labels_flip = make_dataset_txt(root + '/final_labels_flip32asymmetric')
         self.imgs = imgs
