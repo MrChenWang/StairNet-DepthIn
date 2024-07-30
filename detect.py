@@ -111,7 +111,7 @@ def detect():
         #    dataset = LoadStreams_depthcamera(source, img_size=imgsz)
     elif source == 2:
         cudnn.benchmark = True  # set True to speed up constant image size inference
-        dataset = LoadImages(inPath, inPath.replace('images', 'depthes2'), img_size=imgsz)
+        dataset = LoadImages(inPath, inPath.replace('images', 'depthes'), img_size=imgsz)
     else:
         print("Please choose the correct index for source!")
 
