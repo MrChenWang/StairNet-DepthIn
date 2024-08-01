@@ -96,5 +96,9 @@ license where only non-commercial usage is allowed. For commercial usage, please
 
 We will improve and add inference scripts for webcam and realsense D435i depth camera in the future.
 
+## Linking
+
+You can find [StairNet-Depth-Out](https://github.com/MrChenWang/StairNet-DepthOut) by this link.
+
 ## Contact
 If you have any questions or suggestions, feel free to contact us at this email: venus@buaa.edu.cn
